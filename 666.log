@@ -1,0 +1,87 @@
+./drivers/input/touchscreen/mediatek/FT5X26/focaltech_core.c:1443:	wakeup_source_init(acer_suspend_lock, "acer wakelock");
+./drivers/input/touchscreen/mediatek/hxchipset_8789p1_8185p3/himax_common.c:3074:	wakeup_source_init(&ts->ts_SMWP_wake_lock, HIMAX_common_NAME);
+./drivers/input/touchscreen/mediatek/hxchipset_hx83102p/himax_common.c:35:static inline void wakeup_source_init(struct wakeup_source *ws,
+./drivers/input/touchscreen/mediatek/hxchipset_hx83102p/himax_common.c:3107:	wakeup_source_init(&ts->ts_SMWP_wake_lock, HIMAX_common_NAME);
+./drivers/misc/mediatek/apusys/vpu/p1/vpu_power.c:310:	//wakeup_source_init(&vd->pw_wake_lock, vd->name);
+./drivers/misc/mediatek/audio_ipi/common_v1/tasks/mp3/audio_ipi_client_playback.c:34:#define aud_wake_lock_init(ws, name) wakeup_source_init(ws, name)
+./drivers/misc/mediatek/audio_ipi/common_v2/utility/audio_wakelock.h:39:#define aud_wake_lock_init(ws, name) wakeup_source_init(ws, name)
+./drivers/misc/mediatek/base/power/spm_v4/mtk_spm.c:611:	wakeup_source_init(&spm_wakelock, "spm");
+./drivers/misc/mediatek/cameraisp/dpe/isp_70/camera_dpe.c:5571:		//!wakeup_source_init(&DPE_wake_lock, "dpe_lock_wakelock"); //!
+./drivers/misc/mediatek/cameraisp/dpe/mt6765/camera_dpe.c:4076:		/* wakeup_source_init(&dpe_wake_lock, "dpe_lock_wakelock"); */
+./drivers/misc/mediatek/cameraisp/dpe/mt6768/camera_dpe.c:4065:		/* wakeup_source_init(&dpe_wake_lock, "dpe_lock_wakelock"); */
+./drivers/misc/mediatek/cameraisp/dpe/mt6779/camera_dpe.c:3591:		/* wakeup_source_init(&DPE_wake_lock, "DPE_wake_lock"); */
+./drivers/misc/mediatek/cameraisp/fdvt/5.1/camera_fdvt.c:3987:		//wakeup_source_init(&fdvt_wake_lock, "fdvt_lock_wakelock");
+./drivers/misc/mediatek/cameraisp/mfb/isp_6s/camera_mfb.c:4316:		wakeup_source_init(&MSS_wake_lock, "mss_lock_wakelock");
+./drivers/misc/mediatek/cameraisp/mfb/isp_6s/camera_mfb.c:4317:		wakeup_source_init(&MSF_wake_lock, "msf_lock_wakelock");
+./drivers/misc/mediatek/cameraisp/rsc/isp_6s/camera_rsc.c:3104:		//wakeup_source_init(&RSC_wake_lock, "rsc_lock_wakelock");
+./drivers/misc/mediatek/cameraisp/rsc/mt6785/camera_rsc.c:2920:		//wakeup_source_init(&RSC_wake_lock, "rsc_lock_wakelock");
+./drivers/misc/mediatek/cameraisp/src/mt6768/camera_isp.c:10476:		// wakeup_source_init(&isp_wake_lock, "isp_lock_wakelock");
+./drivers/misc/mediatek/cameraisp/src/mt6779/camera_isp.c:6239:		/* wakeup_source_init(isp_wake_lock, "isp_lock_wakelock"); */
+./drivers/misc/mediatek/ccu/src/1.2/ccu_drv.c:1285:// wakeup_source_init(&ccu_wake_lock, "ccu_lock_wakelock");
+./drivers/misc/mediatek/ccu/src/2.0/ccu_drv.c:1254:		//wakeup_source_init(&ccu_wake_lock, "ccu_lock_wakelock");
+./drivers/misc/mediatek/ccu/src/2.1/ccu_drv.c:1317:/*wakeup_source_init(&ccu_wake_lock, "ccu_lock_wakelock");*/
+./drivers/misc/mediatek/ccu/src/mt6833/ccu_drv.c:1414:	//wakeup_source_init(&ccu_wake_lock, "ccu_lock_wakelock");
+./drivers/misc/mediatek/ccu/src/mt6853/ccu_drv.c:1415:	//wakeup_source_init(&ccu_wake_lock, "ccu_lock_wakelock");
+./drivers/misc/mediatek/ccu/src/mt6873/ccu_drv.c:1404:	//wakeup_source_init(&ccu_wake_lock, "ccu_lock_wakelock");
+./drivers/misc/mediatek/ccu/src/mt6877/ccu_drv.c:1414:	//wakeup_source_init(&ccu_wake_lock, "ccu_lock_wakelock");
+./drivers/misc/mediatek/ccu/src/mt6893/ccu_drv.c:1404:	//wakeup_source_init(&ccu_wake_lock, "ccu_lock_wakelock");
+./drivers/misc/mediatek/connectivity/fmradio/core/fm_utils.c:703:		wakeup_source_init(lock, name);
+./drivers/misc/mediatek/connectivity/wlan/core/gen2/os/linux/include/gl_kal.h:285:		wakeup_source_init(_prWakeLock, _pcName); \
+./drivers/misc/mediatek/connectivity/wlan/core/gen3/os/linux/include/gl_kal.h:496:		wakeup_source_init(_prWakeLock, _pcName); \
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7663/os/linux/include/gl_kal.h:621:/* TODO: wakeup_source_init/wakeup_source_trash removed from v5.1
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7663/os/linux/include/gl_kal.h:693:		wakeup_source_init(_prWakeLock, _pcName); \
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt79xx/os/linux/include/gl_kal.h:534:/* TODO: wakeup_source_init/wakeup_source_trash removed from v5.1
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt79xx/os/linux/include/gl_kal.h:606:		wakeup_source_init(_prWakeLock, _pcName); \
+./drivers/misc/mediatek/connectivity/wlan/core/gen4m/os/linux/include/gl_kal.h:567:		wakeup_source_init(_prWakeLock, _pcName); \
+./drivers/misc/mediatek/flashlight/flashlights_limu.c:671:    wakeup_source_init(&flashlight_wake_lock, "flashlight wakelock");
+./drivers/misc/mediatek/geniezone/gz_main.c:442:	//wakeup_source_init(&TeeServiceCall_wake_lock, "KREE_TeeServiceCall");
+./drivers/misc/mediatek/imgsensor/src/mt6873/seninf/seninf_clk.c:171:	wakeup_source_init(&pclk->seninf_wake_lock, "seninf_lock_wakelock");
+./drivers/misc/mediatek/leds/mt6765/mtk_leds.c:135://	wakeup_source_init(&leds_suspend_lock, "leds wakelock");
+./drivers/misc/mediatek/leds/mt6768/mtk_leds.c:145:	// wakeup_source_init(&leds_suspend_lock, "leds wakelock");
+./drivers/misc/mediatek/leds/mt6779/mtk_leds.c:134://	wakeup_source_init(&leds_suspend_lock, "leds wakelock");
+./drivers/misc/mediatek/leds/mt6785/mtk_leds.c:146:/*	wakeup_source_init(&leds_suspend_lock, "leds wakelock"); */
+./drivers/misc/mediatek/leds/mt6853/mtk_leds.c:159:	// wakeup_source_init(&leds_suspend_lock, "leds wakelock");
+./drivers/misc/mediatek/leds/mt6873/mtk_leds.c:151:	wakeup_source_init(&leds_suspend_lock, "leds wakelock");
+./drivers/misc/mediatek/leds/mt6885/mtk_leds.c:156:	// wakeup_source_init(&leds_suspend_lock, "leds wakelock");
+./drivers/misc/mediatek/pmic/include/mtk_pmic_common.h:14:#define pmic_init_wake_lock(lock, name)	wakeup_source_init(lock, name)
+./drivers/misc/mediatek/pmic/mt6357/v1/pmic_auxadc.c:414:	//wakeup_source_init(&mdrt_wakelock, "MDRT Monitor wakelock");
+./drivers/misc/mediatek/pmic/mt6358/v1/pmic_auxadc.c:564:	//wakeup_source_init(&mdrt_wakelock, "MDRT Monitor wakelock");
+./drivers/misc/mediatek/pmic/mt6358/v1/pmic_throttling_dlpt.c:650:	//wakeup_source_init(&bat_percent_notify_lock,
+./drivers/misc/mediatek/pmic/mt6358/v1/pmic_throttling_dlpt.c:1910:	//wakeup_source_init(&ptim_wake_lock, "PTIM_wakelock");
+./drivers/misc/mediatek/pmic/mt6359/v1/pmic_auxadc.c:410:	//wakeup_source_init(&mdrt_wakelock, "MDRT Monitor wakelock");
+./drivers/misc/mediatek/pmic/mt6359/v1/pmic_throttling_dlpt.c:659:	//wakeup_source_init(&bat_percent_notify_lock,
+./drivers/misc/mediatek/pmic/mt6359/v1/pmic_throttling_dlpt.c:1907:	//wakeup_source_init(&ptim_wake_lock, "PTIM_wakelock");
+./drivers/misc/mediatek/pmic/mt6359p/v1/pmic_auxadc.c:399:	//wakeup_source_init(&mdrt_wakelock, "MDRT Monitor wakelock");
+./drivers/misc/mediatek/pmic/mt6359p/v1/pmic_throttling_dlpt.c:765:	//wakeup_source_init(&bat_percent_notify_lock,
+./drivers/misc/mediatek/pmic/mt6359p/v1/pmic_throttling_dlpt.c:2033:	//wakeup_source_init(&ptim_wake_lock, "PTIM_wakelock");
+./drivers/misc/mediatek/sensors-1.0/alsps/stk3x1x/stk3x1x.c:3405:		wakeup_source_init(&mps_lock, "ps wakelock");
+./drivers/misc/mediatek/video/mt6833/cmdq/v3/mtk-cmdq-mailbox.c:1574:	wakeup_source_init(&cmdq->wake_lock, "cmdq_wakelock");
+./drivers/misc/mediatek/video/mt6833/videox/mtk_ovl.c:95:		wakeup_source_init(&memout_wk_lock, "memout_disp_wakelock");
+./drivers/misc/mediatek/video/mt6833/videox/primary_display.c:4120:	wakeup_source_init(&pri_wk_lock, "pri_disp_wakelock");
+./drivers/misc/mediatek/video/mt6853/cmdq/v3/mtk-cmdq-mailbox.c:1575:	wakeup_source_init(&cmdq->wake_lock, "cmdq_wakelock");
+./drivers/misc/mediatek/video/mt6853/videox/mtk_ovl.c:96:		wakeup_source_init(&memout_wk_lock, "memout_disp_wakelock");
+./drivers/misc/mediatek/video/mt6853/videox/primary_display.c:4119:	wakeup_source_init(&pri_wk_lock, "pri_disp_wakelock");
+./drivers/misc/mediatek/video/mt6885/videox/mtk_ovl.c:95:		wakeup_source_init(&memout_wk_lock, "memout_disp_wakelock");
+./drivers/misc/mediatek/video/mt6885/videox/primary_display.c:4108:	wakeup_source_init(&pri_wk_lock, "pri_disp_wakelock");
+./drivers/misc/mediatek/videocodec/mt6765/videocodec_kernel_driver.c:3383:	wakeup_source_init(&v_wakeup_src, "v_wakeup_src");
+./drivers/misc/mediatek/vpu/mt6768/vpu_hw.c:2902:				wakeup_source_init(
+./drivers/misc/mediatek/vpu/mt6768/vpu_hw.c:2905:				wakeup_source_init(
+./drivers/misc/mediatek/vpu/mt6785/vpu_hw.c:3730:				wakeup_source_init(&(vpu_wake_lock[i]),
+./drivers/power/supply/mediatek/battery/mtk_gauge_coulomb_service.c:532:	//wakeup_source_init(wlock, "gauge coulomb wakelock");
+./drivers/power/supply/mediatek/charger/mtk_pe20_intf.c:716:	//wakeup_source_init(pinfo->pe2.suspend_lock, "PE+20 suspend wakelock");
+./drivers/power/supply/mediatek/charger/mtk_pe_intf.c:304:	//wakeup_source_init(pinfo->pe.suspend_lock, "PE+ suspend wakelock");
+./drivers/power/supply/rt9471.c:2830:	wakeup_source_init(&chip->buck_dwork_ws,
+./drivers/power/supply/rt9471.c:2872:		wakeup_source_init(&chip->bc12_en_ws, devm_kasprintf(chip->dev,
+./drivers/power/oplus/charger_ic/oplus_battery_mtk6768R.c:4379:	wakeup_source_init(&info->charger_wakelock, "charger suspend wakelock");
+./drivers/power/oplus/charger_ic/oplus_battery_mtk6769.c:4359:	wakeup_source_init(&info->charger_wakelock, "charger suspend wakelock");
+./drivers/power/oplus/charger_ic/oplus_battery_mtk6769R.c:4261:	wakeup_source_init(&info->charger_wakelock, "charger suspend wakelock");
+./drivers/power/oplus/charger_ic/oplus_battery_mtk6785.c:7264:	wakeup_source_init(&info->charger_wakelock, "charger suspend wakelock");
+./drivers/power/oplus/charger_ic/oplus_battery_mtk6785R.c:7206:	wakeup_source_init(&info->charger_wakelock, "charger suspend wakelock");
+./drivers/power/oplus/charger_ic/oplus_battery_mtk6877R.c:7606:	wakeup_source_init(&info->charger_wakelock, "charger suspend wakelock");
+./drivers/power/oplus/charger_ic/oplus_battery_mtk6885R.c:7150:	wakeup_source_init(&info->charger_wakelock, "charger suspend wakelock");
+./drivers/power/oplus/charger_ic/oplus_battery_mtk6889R.c:7201:	wakeup_source_init(&info->charger_wakelock, "charger suspend wakelock");
+./drivers/power/oplus/charger_ic/oplus_battery_mtk6893R.c:7677:	wakeup_source_init(&info->charger_wakelock, "charger suspend wakelock");
+./drivers/power/oplus/charger_ic/oplus_rt9471_charger.c:3040:		wakeup_source_init(&chip->bc12_en_ws, chip->bc12_en_name);
+./drivers/soc/mediatek/mtk-pmic-wrap.c:106:#define pwrap_init_wake_lock(lock, name)	wakeup_source_init(lock, name)
+./drivers/soc/mediatek/mtk-pmic-wrap_v1.c:109:#define pwrap_init_wake_lock(lock, name)	wakeup_source_init(lock, name)
+./sound/soc/mediatek/common_int/mtk-auddrv-common-func.h:48:#define aud_wake_lock_init(ws, name) wakeup_source_init(ws, name)
