@@ -142,7 +142,7 @@ void wakeup_source_drop(struct wakeup_source *ws)
 
 	__pm_relax(ws);
 }
-EXPORT_SYMBOL_GPL(wakeup_source_drop
+EXPORT_SYMBOL_GPL(wakeup_source_drop);
 
 /*
  * Record wakeup_source statistics being deleted into a dummy wakeup_source.
