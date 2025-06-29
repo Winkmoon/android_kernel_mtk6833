@@ -91,7 +91,7 @@ jobs:
         
 
     - name: 上传编译内核
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: mtk6833内核-Image
         path: kernel_workspace/${{ github.event.inputs.KERNEL_NAME }}/out/arch/arm64/boot/Image
